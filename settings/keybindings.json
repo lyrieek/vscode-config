@@ -1,0 +1,204 @@
+// 将按键绑定配置放入此文件中即可覆盖默认值
+[
+    {
+        "key": "shift+alt+s",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    }, 
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+e",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "alt+a",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+v",
+        "command": "workbench.action.openView"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "alt+oem_2",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+t",
+        "command": "terminal.toggle"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "-terminal.toggle"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "git.clean"
+    },
+    {
+        "key": "alt+oem_1",
+        "command": "extension.toggleLabels"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "-extension.toggleLabels"
+    },
+    {
+        "key": "ctrl+shift+oem_comma",
+        "command": "workbench.action.terminal.moveToLineStart"
+    },
+    {
+        "key": "ctrl+shift+oem_period",
+        "command": "workbench.action.terminal.moveToLineEnd"
+    },
+    {
+        "key": "ctrl+alt+oem_5",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.toggleDevTools"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.action.toggleDevTools"
+    },
+    {
+        "key": "alt+oem_6",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+oem_4",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+h",
+        "command": "git.viewFileHistory"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "git.viewHistory"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "git.commitAll"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    }
+]

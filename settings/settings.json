@@ -1,0 +1,62 @@
+{
+
+    "files.eol": "\n",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 1,
+    "editor.mouseWheelZoom": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorTheme": "Tianhao (Dark)",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "search.followSymlinks": false,
+    "editor.fontSize": 16,
+    "search.exclude": {
+        "**/components": true
+    },
+    "search.smartCase": true,
+    "terminal.external.windowsExec": "F:\\cmder\\vendor\\init.bat",
+    "editor.minimap.showSlider": "always",
+    "workbench.iconTheme": "file-icons",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "terminal.explorerKind": "external",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "beautify.config": {
+        "eol": "\n",
+        "space_after_anon_function": false,
+        "operator_position": "after-newline",
+        "indent_with_tabs": 1,
+        "end_with_newline": true
+    },
+    "editor.largeFileOptimizations": false,
+    "editor.accessibilitySupport": "off",
+    "editor.autoIndent": false,
+    "workbench.activityBar.visible": false,
+    "editor.foldingStrategy": "indentation",
+    "files.autoSave": "off",
+    "editor.renderLineHighlight": "all",
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#000077",
+        "activityBar.background": "#00345d",
+        "sideBar.background": "#0b2b32",
+        "sideBar.border": "#0000ff"
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "eslint.options": {
+        "extensions": ".js"
+    },
+    "html.validate.styles": false,
+    "html.validate.scripts": false,
+    "editor.scrollBeyondLastColumn": 3,
+    "editor.wordWrap": "on",
+    "editor.cursorWidth": 1,
+    "editor.lineHeight": 27,
+    "editor.scrollBeyondLastLine": false
+}
