@@ -46,11 +46,15 @@
 		"sideBar.background": "#0b2b32",
 		"sideBar.border": "#0000ff",
 		"editorLineNumber.foreground": "#D19A66",
-		"editorLineNumber.activeForeground": "#ff0000"
+		"editorLineNumber.activeForeground": "#ff0000",
+		"badge.foreground": "#00ff00",
+		"activityBarBadge.background": "#a11",
+		"activityBar.foreground": "#66dce4",
+		"activityBar.dropBackground": "#fff",
+		"tab.border": "#7777ff",
+		"tab.hoverBackground": "#337"
 	},
-	"eslint.validate": [
-		"javascript"
-	],
+	"eslint.validate": ["javascript"],
 	"eslint.options": {
 		"extensions": ".js"
 	},
@@ -60,28 +64,18 @@
 	"editor.wordWrap": "on",
 	"editor.cursorWidth": 1,
 	"editor.lineHeight": 27,
-    "editor.scrollBeyondLastLine": false,
-    "beautify.language": {
-        "js": {
-            "type": [
-                "javascript",
-                "json",
-                "jsonc"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ]
-        },
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html",
-			"vue"
-        ]
-    },
-    "typescript.validate.enable": false
+	"editor.scrollBeyondLastLine": false,
+	"beautify.language": {
+		"js": {
+			"type": [
+				"javascript",
+				"json",
+				"jsonc"
+			],
+			"filename": [".jshintrc", ".jsbeautifyrc"]
+		},
+		"css": ["css", "scss"],
+		"html": ["htm", "html", "vue"]
+	},
+	"typescript.validate.enable": false
 }
