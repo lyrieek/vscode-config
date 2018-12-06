@@ -1,94 +1,115 @@
 {
-    "atomKeymap.promptV3Features": true,
-    "beautify.config": {
-        "brace_style": "collapse,preserve-inline",
-        "end_with_newline": true,
-        "eol": "\n",
-        "indent_with_tabs": 1,
-        "operator_position": "after-newline",
-        "space_after_anon_function": false
-    },
-    "beautify.language": {
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html",
-            "vue"
-        ],
-        "js": {
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ],
-            "type": [
-                "javascript",
-                "json",
-                "jsonc"
-            ]
-        }
-    },
-    "editor.accessibilitySupport": "off",
-    "editor.autoIndent": false,
-    "editor.cursorWidth": 1,
-    "editor.foldingStrategy": "indentation",
-    "editor.fontSize": 16,
-    "editor.largeFileOptimizations": false,
-    "editor.lineHeight": 27,
-    "editor.minimap.enabled": true,
-    "editor.minimap.showSlider": "always",
-    "editor.mouseWheelZoom": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderLineHighlight": "all",
-    "editor.scrollBeyondLastColumn": 3,
-    "editor.scrollBeyondLastLine": false,
-    "editor.wordWrap": "on",
-    "eslint.options": {
-        "extensions": ".js"
-    },
-    "eslint.validate": [
-        "javascript"
-    ],
-    "explorer.autoReveal": false,
-    "explorer.confirmDelete": false,
-    "extensions.closeExtensionDetailsOnViewChange": true,
-    "files.autoSave": "off",
-    "files.eol": "\n",
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "html.validate.scripts": false,
-    "html.validate.styles": false,
-    "input.background": "#003847",
-    "search.exclude": {
-        "**/components": true
-    },
-    "search.followSymlinks": false,
-    "search.smartCase": true,
-    "terminal.explorerKind": "external",
-    "terminal.external.windowsExec": "F:\\cmder\\vendor\\init.bat",
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "typescript.validate.enable": false,
-    "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 1,
-    "workbench.activityBar.visible": true,
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#00345d",
-        "activityBar.dropBackground": "#fff",
-        "activityBar.foreground": "#66dce4",
-        "activityBarBadge.background": "#a11",
-        "badge.foreground": "#00ff00",
-        "editorLineNumber.activeForeground": "#ff0000",
-        "editorLineNumber.foreground": "#D19A66",
-        "sideBar.background": "#0b2b32",
-        "sideBar.border": "#0000ff",
-        "statusBar.background": "#000077",
-        "tab.border": "#7777ff",
-        "tab.hoverBackground": "#337"
-    },
-    "workbench.colorTheme": "Tianhao (Dark)",
-    "workbench.iconTheme": "file-icons",
-    "workbench.statusBar.feedback.visible": false
+	"atomKeymap.promptV3Features": true,
+	"beautify.config": {
+		"brace_style": "collapse,preserve-inline",
+		"end_with_newline": true,
+		"eol": "\n",
+		"indent_with_tabs": 1,
+		"operator_position": "after-newline",
+		"space_after_anon_function": false
+	},
+	"beautify.language": {
+		"css": [
+			"css",
+			"scss"
+		],
+		"html": [
+			"htm",
+			"html",
+			"vue"
+		],
+		"js": {
+			"filename": [
+				".jshintrc",
+				".jsbeautifyrc"
+			],
+			"type": [
+				"javascript",
+				"json",
+				"jsonc"
+			]
+		}
+	},
+	"editor.accessibilitySupport": "off",
+	"editor.autoIndent": false,
+	"editor.cursorWidth": 1,
+	"editor.foldingStrategy": "indentation",
+	"editor.fontSize": 16,
+	"editor.largeFileOptimizations": false,
+	"editor.lineHeight": 27,
+	"editor.minimap.enabled": true,
+	"editor.minimap.showSlider": "always",
+	"editor.mouseWheelZoom": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.renderLineHighlight": "all",
+	"editor.scrollBeyondLastColumn": 3,
+	"editor.scrollBeyondLastLine": false,
+	"editor.wordWrap": "on",
+	"eslint.options": {
+		"extensions": ".js"
+	},
+	"eslint.validate": [
+		"javascript"
+	],
+	"explorer.autoReveal": false,
+	"explorer.confirmDelete": false,
+	"extensions.closeExtensionDetailsOnViewChange": true,
+	"files.autoSave": "off",
+	"files.eol": "\n",
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"html.validate.scripts": false,
+	"html.validate.styles": false,
+	"search.exclude": {
+		"**/components": true
+	},
+	"search.followSymlinks": false,
+	"search.smartCase": true,
+	"terminal.explorerKind": "external",
+	"terminal.external.windowsExec": "F:\\cmder\\vendor\\init.bat",
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"typescript.validate.enable": false,
+	"window.menuBarVisibility": "toggle",
+	"window.zoomLevel": 1,
+	"workbench.activityBar.visible": true,
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#00345d",
+		"activityBar.dropBackground": "#fff",
+		"activityBar.foreground": "#66dce4",
+		"activityBarBadge.background": "#a11",
+		"badge.foreground": "#00ff00",
+		"editorLineNumber.activeForeground": "#ff0000",
+		"editorLineNumber.foreground": "#D19A66",
+		"input.background": "#003847",
+		"dropdown.background": "#003847",
+		"panel.dropBackground": "#003847",
+		"sideBar.background": "#0b2b32",
+		"sideBar.border": "#0000ff",
+		"statusBar.background": "#000077",
+		"tab.border": "#7777ff",
+		"tab.hoverBackground": "#337"
+	},
+	"workbench.colorTheme": "Tianhao (Dark)",
+	"workbench.iconTheme": "file-icons",
+	"workbench.statusBar.feedback.visible": false,
+	"background.customImages": [
+		"file://G:/user/Pictures/E12FD01D355C9688C0096B044CFFF497.jpg"
+	],
+	"background.useDefault": false,
+	"background.style": {
+		"content": "''",
+		"pointer-events": "none",
+		"position": "absolute",
+		"top": "0",
+		"left": "0",
+		"z-index": "99999",
+		"width": "100%",
+		"height": "100%",
+		"background-size": "cover",
+		"background-position": "0px 0px",
+		"background-repeat": "no-repeat",
+		"opacity": 0.07
+	},
+	"background.useFront": false
 }
