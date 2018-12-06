@@ -1,0 +1,56 @@
+{
+	"name": "vscode-config-th",
+	"displayName": "Tianhao visual studio config",
+	"description": "something setting and extension",
+	"version": "0.0.1",
+	"homepage": "https://github.com/lyrieek/vsc-tianhao/blob/master/README.md",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"remoteConfigPath": "./remote.json",
+	"contributes": {
+		"commands": [
+			{
+				"title": "Toggle Case",
+				"command": "tianhao.toggleCase"
+			},
+			{
+				"title": "Test",
+				"command": "tianhao.test"
+			},
+			{
+				"title": "Remote",
+				"command": "tianhao.remote"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "tianhao.toggleCase",
+				"key": "ctrl+shift+u",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"watch": "tsc -watch -p ./",
+		"build": "vsce package",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"tslint": "^5.8.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"ssh2": "^0.6.1"
+	}
+}
