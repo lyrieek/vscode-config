@@ -31,7 +31,6 @@
 		}
 	},
 	"editor.accessibilitySupport": "off",
-	"editor.autoIndent": false,
 	"editor.cursorWidth": 1,
 	"editor.foldingStrategy": "indentation",
 	"editor.fontSize": 16,
@@ -54,7 +53,7 @@
 	"explorer.autoReveal": false,
 	"explorer.confirmDelete": false,
 	"extensions.closeExtensionDetailsOnViewChange": true,
-	"files.autoSave": "off",
+	"files.autoSave": "onWindowChange",
 	"files.eol": "\n",
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
@@ -66,11 +65,11 @@
 	"search.followSymlinks": false,
 	"search.smartCase": true,
 	"terminal.explorerKind": "external",
-	"terminal.external.windowsExec": "F:\\cmder\\vendor\\init.bat",
+	"terminal.external.windowsExec": "file://F:/cmder/vendor/init.bat",
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 	"typescript.validate.enable": false,
-	"window.menuBarVisibility": "toggle",
+	"window.menuBarVisibility": "default",
 	"window.zoomLevel": 1,
 	"workbench.activityBar.visible": true,
 	"workbench.colorCustomizations": {
@@ -90,11 +89,10 @@
 		"tab.border": "#7777ff",
 		"tab.hoverBackground": "#337"
 	},
-	"workbench.colorTheme": "Tianhao (Dark)",
-	"workbench.iconTheme": "file-icons",
+	"workbench.colorTheme": "Default High Contrast",
 	"workbench.statusBar.feedback.visible": false,
 	"background.customImages": [
-		"file://G:/user/Pictures/E12FD01D355C9688C0096B044CFFF497.jpg"
+		"file://C:/Users/user/.vscode/background.jpg"
 	],
 	"background.useDefault": false,
 	"background.style": {
@@ -111,5 +109,8 @@
 		"background-repeat": "no-repeat",
 		"opacity": 0.07
 	},
-	"background.useFront": false
+	"background.useFront": false,
+	"workbench.iconTheme": "file-icons",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Consolas, 'Courier New',monospace"
 }
