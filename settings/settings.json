@@ -80,6 +80,9 @@
 		"badge.foreground": "#00ff00",
 		"editorLineNumber.activeForeground": "#ff0000",
 		"editorLineNumber.foreground": "#D19A66",
+		"editor.lineHighlightBorder": "#ff0000",
+		"editor.selectionBackground": "#0a0eee",
+		"editor.findMatchHighlightBorder": "#008000",
 		"input.background": "#003847",
 		"dropdown.background": "#003847",
 		"panel.dropBackground": "#003847",
@@ -89,7 +92,7 @@
 		"tab.border": "#7777ff",
 		"tab.hoverBackground": "#337"
 	},
-	"workbench.colorTheme": "Default High Contrast",
+	"workbench.colorTheme": "Tianhao (Dark)",
 	"workbench.statusBar.feedback.visible": false,
 	"background.customImages": [
 		"file://C:/Users/user/.vscode/background.jpg"

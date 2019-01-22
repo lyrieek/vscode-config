@@ -346,5 +346,9 @@
         "key": "shift+alt+down",
         "command": "-cursorColumnSelectDown",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+u",
+        "command": "git.push"
     }
 ]
