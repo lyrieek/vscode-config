@@ -60,6 +60,7 @@
 	"html.validate.scripts": false,
 	"html.validate.styles": false,
 	"search.exclude": {
+		"**/.git": true,
 		"**/components": true
 	},
 	"search.followSymlinks": false,
@@ -115,5 +116,8 @@
 	"background.useFront": false,
 	"workbench.iconTheme": "file-icons",
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "Consolas, 'Courier New',monospace"
+	"editor.fontFamily": "Consolas, 'Courier New',monospace",
+	"files.exclude": {
+		"**/.git": false
+	}
 }
