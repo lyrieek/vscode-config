@@ -6,8 +6,10 @@ my vscode config
 Atom Keymap
 Auto Rename Tag
 Beautify
+Custom CSS and JS
 Debugger for Chrome
 ESLint
+filesize
 GitLens —— Git supercharged
 npm
 Python
@@ -15,6 +17,7 @@ Terminal
 Tianhao
 Todo+
 vscode-icons
+
 
 ## Theme
 Noctis
