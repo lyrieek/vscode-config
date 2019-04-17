@@ -350,5 +350,19 @@
     {
         "key": "shift+alt+u",
         "command": "git.push"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.clear"
     }
 ]
