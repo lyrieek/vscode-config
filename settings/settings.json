@@ -73,26 +73,25 @@
 	"window.zoomLevel": 1,
 	"workbench.activityBar.visible": true,
 	"workbench.colorCustomizations": {
-		"activityBar.background": "#00345d",
-		"activityBar.dropBackground": "#fff",
-		"activityBar.foreground": "#66dce4",
-		"activityBarBadge.background": "#a11",
-		"badge.foreground": "#00ff00",
-		"editorLineNumber.activeForeground": "#ff0000",
-		"editorLineNumber.foreground": "#D19A66",
-		"editor.lineHighlightBorder": "#ff0000",
-		"editor.selectionBackground": "#0a0eee",
-		"editor.findMatchHighlightBorder": "#008000",
-		"input.background": "#003847",
-		"dropdown.background": "#003847",
-		"panel.dropBackground": "#003847",
-		"sideBar.background": "#0b2b32",
-		"sideBar.border": "#0000ff",
-		"statusBar.background": "#000077",
-		"tab.border": "#7777ff",
-		"tab.hoverBackground": "#337"
+		// "activityBar.background": "#00345d",
+		// "activityBar.dropBackground": "#fff",
+		// "activityBar.foreground": "#66dce4",
+		// "activityBarBadge.background": "#a11",
+		// "badge.foreground": "#00ff00",
+		// "editorLineNumber.activeForeground": "#ff0000",
+		// "editorLineNumber.foreground": "#D19A66",
+		// "editor.lineHighlightBorder": "#ff0000",
+		// "editor.selectionBackground": "#0a0eee",
+		// "editor.findMatchHighlightBorder": "#008000",
+		// "input.background": "#003847",
+		// "dropdown.background": "#003847",
+		// "panel.dropBackground": "#003847",
+		// "sideBar.background": "#0b2b32",
+		// "sideBar.border": "#0000ff",
+		// "statusBar.background": "#000077",
+		// "tab.border": "#7777ff",
+		// "tab.hoverBackground": "#337"
 	},
-	"workbench.colorTheme": "Tianhao (Dark)",
 	"workbench.statusBar.feedback.visible": false,
 	"background.customImages": [
 		"file://C:/Users/user/.vscode/background.jpg"
@@ -113,12 +112,19 @@
 		"opacity": 0.07
 	},
 	"background.useFront": false,
-	"workbench.iconTheme": "vscode-icons",
 	"editor.fontLigatures": true,
 	"editor.fontFamily": "Consolas, 'Courier New',monospace",
 	"files.exclude": {
 		"**/.git": false
 	},
 	"explorer.confirmDragAndDrop": false,
-	"terminal.integrated.windowsEnableConpty": true
+	"terminal.integrated.windowsEnableConpty": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"workbench.colorTheme": "Noctis Azureus",
+	"workbench.iconTheme": "vscode-icons"
 }

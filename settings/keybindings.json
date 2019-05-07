@@ -364,5 +364,25 @@
     {
         "key": "ctrl+l",
         "command": "workbench.action.terminal.clear"
+    },
+    {
+        "key": "ctrl+k ctrl+p",
+        "command": "workbench.action.openProcessExplorer"
+    },
+    {
+        "key": "ctrl+k t",
+        "command": "workbench.action.showAllEditors"
+    },
+    {
+        "key": "ctrl+k ctrl+p",
+        "command": "-workbench.action.showAllEditors"
+    },
+    {
+        "key": "alt+n",
+        "command": "editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
     }
 ]
